@@ -5,6 +5,10 @@
         <title>Timestamp</title>
     </head>
     <body>
-        Meow
+        <div>
+            <p>
+                {{ timestamp | dump }}
+            </p>
+        </div>
     </body>
 </html>
